@@ -1,4 +1,4 @@
-# pageTemplate
+# Page template
 
 Link do strony
 http://pagetemplate.epizy.com/
