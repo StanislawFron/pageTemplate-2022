@@ -1,0 +1,208 @@
+body{
+  scroll-behavior:auto;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+}
+
+.np{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-link{
+        color:white;
+    }
+}
+
+@keyframes example2 {
+    from {background-color: rgb(0, 0, 0);}
+    to {background-color: rgb(0, 0, 0, 0);}
+  }
+
+  @keyframes example1 {
+    from {background-color: rgb(0, 0, 0, 0);}
+    to {background-color: rgba(0, 0, 0);}
+  }
+
+.animation-color{
+    animation-name: example1;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.animation-transparent{
+    animation-name: example2;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.heroImage__container{
+    background-position: top;
+}
+
+
+// /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {...}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}
+
+  
+
+  @media only screen and (min-width: 992px) {
+    .navbar-brand{
+        padding-left: 15vw;
+    }
+    .navbar-brand{
+        padding-right: 25vw;
+        font-size: 24px;
+    }
+
+    .nav-item{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+  }
+
+  .formDiv__form--input{
+    input{
+    border: 0px;
+    font-size: 16px;
+    height: 55px;
+    width: 95%;
+    }
+  }
+  
+  .formDiv__form--textarea{
+    border: 0px;
+    font-size: 16px;
+    height: 300px;
+  }
+  
+  .formDiv__form--title{
+    font-size: 28px;
+  }
+  
+  .contactSection{
+    background-color: #efefef !important;
+  }
+  
+  .formDiv__form--btn{
+    border:0px;
+    background-color: #146cd4;
+    color: #ffffff;
+    font-size: 14px;
+    max-height: 50px;
+  }
+  
+  .gameDiv{
+    height: 300px;
+    position: relative;
+    padding: 0px;
+  }
+  
+  .gameDiv__a{
+    text-decoration: none;
+    position: absolute;
+    width:90%;
+    height: 90%;
+    border-radius: 10px;
+    overflow-y:hidden;
+    -webkit-box-shadow: 4px 8px 20px -9px rgba(41, 41, 43, 1);
+    -moz-box-shadow: 4px 8px 20px -9px rgba(41, 41, 43, 1);
+    box-shadow: 4px 8px 20px -9px rgba(41, 41, 43, 1);
+  }
+  
+  .gameDiv__a:hover{
+    .gameDiv__a--image{
+      height: 80px;
+      transition: 0.3s;
+    }
+  }
+
+  a{
+    color:black;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+  
+  .gameDiv__a--image{
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .gameDiv__a--title{
+    color: #000000;
+    font-size: 24px;
+  }
+  
+  .gameDiv__a--description{
+    color:#000000;
+    font-size: 16px;
+  }
+
+  
+  .gameDiv__a--btn{
+    background-color: #146cd4;
+    border:0px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    min-width:100px;
+  }
+
+
+.splide{
+  height: 330px;
+}
+
+.offerSlider{
+  background-color: #efefef;
+}
+
+.contact{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  background-color: #efefef;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .contact{
+    position: static;
+    border-radius: 0px;
+  }
+}
+
+.mapouter{
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+  .mapouter{
+    background-color: #efefef;
+  }
+}
